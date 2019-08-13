@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>vaultkey_validate</id>
+    <name>Vaultkey validate</name>
+    <summary>Validate provided access token</summary>
+    <description><![CDATA[Validate provided access token.]]></description>
+    <licence>agpl</licence>
+    <author mail="markmann@edudocs.de" >Torsten Markmann</author>
+    <version>0.0.1</version>
+    <namespace>VaultKeyValidate</namespace>
+    <category>organization</category>
+    <category>tools</category>
+    <bugs>https://edudocs.org</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="17"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Schlüssel Prüfer</name>
+            <route>vaultkey_validate.page.index</route>
+        </navigation>
+    </navigations>
+</info>
